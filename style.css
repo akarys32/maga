@@ -1,0 +1,133 @@
+•⁠  ⁠{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-card {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.score-section {
+    background-color: #4f03d1;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    flex: 1;
+}
+
+.summary-section {
+    padding: 20px;
+    text-align: left;
+    flex: 1.2;
+}
+
+.result {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.grade {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.summary-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.score-value {
+    border:2px solid red;
+    color: red;
+    font-family:fantasy;
+    background-color: lightpink;
+    font-size: large;
+
+    
+}
+.score-value1 {
+    border:2px solid rgb(209, 200, 41);
+    color: rgb(243, 220, 8);
+    font-family:fantasy;
+    background-color: darkorange;
+    font-size: larger;
+
+    
+}
+.score-value2 {
+    border:2px solid rgb(28, 202, 69);
+    color: rgb(16, 220, 47);
+    font-family:fantasy;
+    background-color: darkgreen;
+    font-size: larger;
+
+    
+}
+.score-value3 {
+    border:2px solid rgb(43, 31, 205);
+    color: rgb(5, 166, 191);
+    font-family:fantasy;
+    background-color: rgb(3, 65, 116);
+    font-size: larger;
+
+    
+}
+
+.continue-btn {
+    background-color: #2e3be7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: -60px;
+    margin-left: 220px;
+    border-radius: 50px;
+    font-size: larger;
+    
+}
+
+.continue-btn:hover {
+    background-color: #242fc4;
+}
